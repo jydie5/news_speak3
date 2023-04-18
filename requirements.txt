@@ -1,3 +1,4 @@
 streamlit
 requests
 azure.cognitiveservices.speech
+openai
