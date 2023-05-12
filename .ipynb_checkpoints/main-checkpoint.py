@@ -29,7 +29,7 @@ local_css("style.css")
 
 #st.markdown('<div class="title-text">=====News Echoes: The Sound of Today\'s World=====</div>', unsafe_allow_html=True)
 #st.markdown('<div class="header-text">/////Unraveling World Stories in Audio/////</div>', unsafe_allow_html=True)
-st.markdown('<h2><span>News of Today\'s World</span></h2>', unsafe_allow_html=True)
+st.markdown('<h2><span>News Echoes: The Sound of Today\'s World<br>Unraveling World Stories in Audio</span></h2>', unsafe_allow_html=True)
 st.write(' ')
 
 
@@ -62,7 +62,6 @@ def translate(text):
 url = 'https://newsapi.org/v2/top-headlines'
 params = {
     'country': 'us',
-    'category': 'science',
     'apiKey': os.environ['NEWS_API'],
     'pageSize': '7'
 }
